@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Starter - Bicep",
+        "description": "A starter template with Bicep as infrastructure provider",
+        "repositoryPath": "https://github.com/Azure-Samples/azd-starter-bicep"
+    },
+    {
+        "name": "Microservices App - Dapr PubSub C# ACA ServiceBus",
+        "description": "A complete microservice application featuring Dapr Pub-Sub, deployed to Azure Container Apps and Azure Service Bus Topics with dead-lettering support.",
+        "repositoryPath": "https://github.com/Azure-Samples/pubsub-dapr-csharp-servicebus"
+    },
+    {
+        "name": "Microservices App - Dapr PubSub Node.js ACA ServiceBus",
+        "description": "A complete microservice application featuring Dapr Pub-Sub, deployed to Azure Container Apps and Azure Service Bus Topics with dead-lettering support.",
+        "repositoryPath": "https://github.com/Azure-Samples/pubsub-dapr-nodejs-servicebus"
+    },
+    {
+        "name": "Microservices App - Dapr Bindings Cron C# ACA PostgreSQL",
+        "description": "Create microservice to demonstrate Dapr's bindings API to work with external systems as inputs and outputs. The service listens to input binding events from a system CRON and then outputs the contents of local data to a PostgreSQL output binding.",
+        "repositoryPath": "https://github.com/Azure-Samples/bindings-dapr-csharp-cron-postgres"
+    },
+    {
+        "name": "Microservices App - Dapr Bindings Cron Node.js ACA PostgreSQL",
+        "description": "Create a microservice app to demonstrate Dapr's bindings API to work with external systems as inputs and outputs. The service listens to input binding events from a system CRON and then outputs the contents of local data to a postgreSQL output binding.",
+        "repositoryPath": "https://github.com/Azure-Samples/bindings-dapr-nodejs-cron-postgres"
+    },
+    {
+        "name": "Microservices App - Dapr Service Invoke Node.js ACA",
+        "description": "Create two microservices that communicate using Dapr's Service Invocation API. The Service Invocation API enables your applications to communicate reliably and securely by leveraging auto-mTLS and built-in retries.",
+        "repositoryPath": "https://github.com/Azure-Samples/svc-invoke-dapr-nodejs"
+    },
+    {
+        "name": "Microservices App - Dapr Service Invoke C# ACA",
+        "description": "Create two microservices that communicate using Dapr's Service Invocation API. The Service Invocation API enables your applications to communicate reliably and securely by leveraging auto-mTLS and built-in retries.",
+        "repositoryPath": "https://github.com/Azure-Samples/svc-invoke-dapr-csharp"
+    }
+]
