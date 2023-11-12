@@ -60,12 +60,16 @@ We have existing projects (we all have, right) - so how to get started?
 - azd easy init ... entering the stage
 - Restrictions: ACA only
 
-How does it work:
+How does it work => debug in dev container:
 
-cli/azd/internal/repository/app_init.go
+- `cli/azd/internal/repository/app_init.go``
+- traversing paths
+- Identifying projects and dependencies
+- Identifying docker
+- Building the files based on information
 
-=> debug in dev container
 
-Cloud Native Build packs
+Another aspect: Docker files
 
-cli/azd/pkg/project/framework_service_docker.go
+- Cloud Native Build packs
+- cli/azd/pkg/project/framework_service_docker.go
